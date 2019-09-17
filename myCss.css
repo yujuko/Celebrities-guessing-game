@@ -1,0 +1,74 @@
+body{
+	padding-top: 20px;
+	padding-left: 200px;
+  background: #303030;
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+h3{
+  margin :5px;
+}
+
+input[type=text]{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  font-size:15px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+#test{
+  padding-top: 1px;
+}
+.flexbox{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#play{
+  background-color:#4CAF50;
+
+}
+#start{
+  width: 40%;
+}
+
+.column {
+  padding-left: 100px;
+  float: left;
+  padding: 10px;
+  height: 100vh;
+  column-width: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#user{
+	float: top;
+}
